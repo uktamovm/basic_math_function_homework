@@ -1,4 +1,5 @@
 def main(a):
+    x=abs(a)
     '''find the absolute value of a and return it
     
     Args:
@@ -7,4 +8,5 @@ def main(a):
     Returns:
         int: the absolute value.
     '''
-    return
+    return x
+print(main(4))

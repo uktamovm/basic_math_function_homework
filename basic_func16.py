@@ -1,4 +1,5 @@
 def main(a, b):
+    x=a+b
     '''find the sum of a and b and return it.
     
     Args:
@@ -8,4 +9,5 @@ def main(a, b):
     Returns:
         int: the sum.
     '''
-    return
+    return x
+print(main(3, 2))
